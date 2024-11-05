@@ -10,6 +10,8 @@ const port = process.env.PORT;
 const hostname = process.env.HOSTNAME;
 
 const server = express();
+
+server.use(express.json());
 server.use(logHandler);
 
 server.get(
