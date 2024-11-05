@@ -16,7 +16,7 @@ server.use(logHandler);
 
 server.get(
   "/api/check",
-  asyncHandler((req, res) => {
+  asyncHandler(async (req, res) => {
     res.status(200).json({
       success: true,
       message: "server online",
