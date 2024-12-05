@@ -1,4 +1,4 @@
-# Express Js Template
+# Express
 
 This is an express js template, pre-integrated with utilities, so that you can focus on creating API(s).
 
