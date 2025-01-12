@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Running tests..\" && exit 1",
-    "start": "node --env-file=.env .",
+    "start": "node .",
     "dev": "nodemon --env-file=.env ."
   },
   "keywords": [],
@@ -15,7 +15,7 @@
     "nodemon": "^3.1.7"
   },
   "dependencies": {
-    "exhandlers": "^1.0.9",
+    "exhandlers": "^1.0.21",
     "express": "^4.21.1"
   }
 }
